@@ -3,18 +3,25 @@ body{
   background-image: url("bg.png");
 }
 button {
-  appearance: button;
- color:#fff;
- background-color: #32a87b;
- height:50px;
- font-size:20px;
- width:125px;
- border: 3px solid black;
-  border-radius: 20%;
+ appearance: button;
+ color:white;
+ font-family:'Orbitron';
+ font-weight:bold;
+ background-color:black;
+ height:70px;
+ font-size:30px;
+ width:220px;
+ border: 3px solid white;
+ box-shadow: 15px 15px 15px 0px rgba(255,255,255,0.35);
+filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+  
 }
 h1{
-  font-family: 'Press Start 2P', cursive;
+ font-family:'Orbitron';
  font-size: 20px;
-//  margin:  5%;
-  color: #FEF2BF;
-  }
+  color: white;
+}
+.box{
+  border: 2px solid white ;
+  display: inline;
+}
