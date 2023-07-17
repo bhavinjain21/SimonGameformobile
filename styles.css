@@ -6,8 +6,9 @@ button {
  appearance: button;
  color:white;
  font-family:'Orbitron';
- font-weight:bold;
- background-color:black;
+ 
+ background-image:url("bg.png");  
+background-size:cover;
  height:70px;
  font-size:30px;
  width:220px;
@@ -18,10 +19,19 @@ filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
 }
 h1{
  font-family:'Orbitron';
- font-size: 20px;
+ font-size: 40px;
   color: white;
+  margin-right:1px;
+  font-weight:bold;
+ margin-bottom:1px;
+ margin-top: 5px;
+  
 }
 .box{
-  border: 2px solid white ;
-  display: inline;
-}
+  border: 1px solid white ;
+  display: inline-block;
+  height:45px;
+  width:45px;
+  box-shadow: 5px 5px 5px 0px rgba(255,255,255,0.35);
+filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+ }
